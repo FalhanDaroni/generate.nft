@@ -2,14 +2,15 @@
   "name": "TeaStakerReward",
   "version": "1.0.0",
   "description": "",
-  "author": "Ronni",
-  "repository": {
-    "url": "https://github.com/falhandaroni/generate.nft" },
   "scripts": {
     "test": "hardhat test test/unit/PriceConsumerV3_unit_test.js --network hardhat && hardhat test test/unit/APIConsumer_unit_test.js --network hardhat && hardhat test test/unit/RandomNumberConsumer_unit_test.js --network hardhat && hardhat test test/unit/KeepersCounter_unit_test.js --network hardhat",
     "test-integration": "hardhat test test/integration/APIConsumer_int_test.js --network kovan && hardhat test test/integration/RandomNumberConsumer_int_test.js --network kovan",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
+  },
+  "author": "Ronni",
+  "repository": {
+    "url": "https://github.com/falhandaroni/auto-uploadfb"
   },
   "license": "MIT",
   "devDependencies": {
